@@ -1,0 +1,91 @@
+header {
+    @include grid-row();
+
+    .mail {
+        @include grid-column(2);
+        margin: 0;
+    }
+    h1 {
+        @include grid-column(8);
+        margin: 0;
+    }
+    ul.signin {
+        @include grid-column(2);
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    }
+}
+
+nav {
+    @include grid-row();
+    ul {
+        @include grid-column(6);
+        @include grid-column-offset(3);
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+section.mainpic {
+    @include grid-row(4);
+}
+section.twopics {
+    @include grid-row();
+    .left {
+        @include grid-column(8);
+    }
+    .right {
+        @include grid-column(4);
+    }
+}
+section.shop {
+    @include grid-row();
+    div {
+        @include grid-column(3);
+    }
+}
+footer {
+    .topfooter {
+        @include grid-row();
+        p {
+            @include grid-column(4);
+        }
+        h1 {
+            @include grid-column(4);
+        }
+    }
+    .topmiddle {
+        @include grid-row();
+        ul {
+            @include grid-column(2);
+        }
+        p {
+            @include grid-column(4);
+            text-align: center;
+        }
+        div.email {
+            @include grid-column(4);
+            display: flex;
+            flex-direction: column;
+            p {
+                width: 100%;
+                text-align: center;
+            }
+            p.list_title {
+                text-align: left;
+            }
+            ul {
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+            }
+
+        }
+    }
+    .socialfooter {
+        li {
+            display: inline-block;
+        }
+    }
+}

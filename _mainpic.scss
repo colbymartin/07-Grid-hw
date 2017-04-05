@@ -1,0 +1,30 @@
+section.mainpic {
+    background-image: url('https://fieldnotes.imgix.net/images/products/fn_utility_hero2.jpg?auto=format&fit=crop&h=510&ixlib=php-1.1.0&q=55&w=1300&s=a0dfdb2b379c3809cc531db8b5c21e70');
+    background-size: cover;;
+    font-family: $primary-font;
+    color: #ffffff;
+    text-align: center;
+    p {
+        font-weight:800;
+        margin: 0;
+    }
+    .spring {
+        padding-top: 160px;
+    }
+    h1 {
+        font-weight: 800;
+        font-size: 2.5em;
+        margin: 0;
+    }
+    .link {
+        padding-bottom: 160px;
+        padding-top: 25px;
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: .9em;
+            border: 1px solid white;
+            padding: 5px 20px;
+        }
+    }
+}

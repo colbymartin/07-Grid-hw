@@ -1,0 +1,16 @@
+@import 'node_modules/foundation-sites/scss/foundation';
+@include foundation-global-styles;
+@include foundation-grid;
+$grid-row-width: 100em;
+
+$primary-font: 'Raleway 800', sans-serif;
+
+
+@import 'layout';
+@import 'header';
+@import 'nav';
+@import 'mainpic';
+@import 'twopics';
+@import 'merch';
+@import 'shop';
+@import 'footer';
