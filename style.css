@@ -1593,6 +1593,26 @@ footer .topmiddle {
       width: 100%; }
 footer .socialfooter li {
   display: inline-block; }
+footer .infofooter {
+  max-width: 100em;
+  margin-right: auto;
+  margin-left: auto; }
+  footer .infofooter::before, footer .infofooter::after {
+    display: table;
+    content: ' '; }
+  footer .infofooter::after {
+    clear: both; }
+  footer .infofooter div {
+    width: 33.33333%;
+    float: left;
+    padding-right: 0.625rem;
+    padding-left: 0.625rem; }
+    @media print, screen and (min-width: 40em) {
+      footer .infofooter div {
+        padding-right: 0.9375rem;
+        padding-left: 0.9375rem; } }
+    footer .infofooter div:last-child:not(:first-child) {
+      float: right; }
 
 header {
   font-family: "Raleway 800", sans-serif; }

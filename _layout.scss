@@ -88,4 +88,10 @@ footer {
             display: inline-block;
         }
     }
+    .infofooter {
+        @include grid-row();
+        div {
+            @include grid-column(4);
+        }
+    }
 }
