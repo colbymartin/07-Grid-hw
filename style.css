@@ -1666,12 +1666,42 @@ section.twopics .left {
   background-size: cover;
   text-align: center;
   color: white;
-  height: 300px; }
+  padding-top: 82.5px;
+  padding-bottom: 82.5px; }
+  section.twopics .left p {
+    margin: 0;
+    font-weight: 800; }
+  section.twopics .left h1 {
+    margin: 0; }
+  section.twopics .left .link {
+    padding-top: 15px; }
+    section.twopics .left .link a {
+      text-decoration: none;
+      color: white;
+      font-size: .9em;
+      border: 1px solid white;
+      padding: 5px 20px; }
 section.twopics .right {
   background-image: url(https://fieldnotes.imgix.net/images/home_B_ledger.jpg?auto=format&ixlib=php-1.1.0&q=55&s=d77ca94d713b5825c0555f6ea61711c1);
   background-size: cover;
-  height: 300px;
-  text-align: center; }
+  text-align: center;
+  padding-top: 94.5px;
+  padding-bottom: 94.5px; }
+  section.twopics .right p {
+    margin: 0;
+    font-weight: 800; }
+  section.twopics .right p.georgia {
+    font-family: Georgia;
+    color: #AEA288;
+    padding-top: 15px; }
+  section.twopics .right .link {
+    padding-top: 15px; }
+    section.twopics .right .link a {
+      text-decoration: none;
+      color: black;
+      font-size: .9em;
+      border: 1px solid black;
+      padding: 5px 20px; }
 
 section.merch {
   text-align: center;
